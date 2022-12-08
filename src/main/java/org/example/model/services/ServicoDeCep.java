@@ -31,7 +31,7 @@ public class ServicoDeCep {
 
             return endereco;
         } catch (Exception e) {
-            throw new Exception("Erro : " + e);
+            throw new Exception("Erro : " + e.getMessage());
         }
     }
 }
